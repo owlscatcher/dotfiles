@@ -31,5 +31,5 @@
     "gitlens.blame.ignoreWhitespace": true,
 
     "breadcrumbs.enabled": true,
-    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "workbench.colorTheme": "Gruvbox Material Dark"
 }
