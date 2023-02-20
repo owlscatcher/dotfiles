@@ -63,18 +63,9 @@ bundle exec rubocop -a
 
 ### ESLint
 
-VSCode ext. list:
-- eslint
-- prettier
-- @babel/eslint-parser
-- eslint-config-airbnb
-- eslint-config-prettier
-- eslint-plugin-filenames
-- eslint-plugin-import
-- eslint-plugin-jsx-a11y
-- eslint-plugin-prettier
-- eslint-plugin-react
-- eslint-plugin-react-hooks
+```bash
+yarn add eslint prettier @babel/eslint-parser eslint-config-airbnb eslint-config-prettier eslint-plugin-filenames eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks
+```
 
 ```bash
 cp $(pwd)/JavaScript/.eslintrc ~/<project>/<root>/<path>
