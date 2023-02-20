@@ -44,3 +44,54 @@ cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Co
 ```bash
 cp $(pwd)/VScode/settings.json ~/.config/Code/User
 ```
+
+## Ruby and JS
+
+### Rubocop
+
+```bash
+gem install rubocop
+```
+
+```bash
+cp $(pwd)/Ruby/.rubocop.yml ~/<project>/<root>/<path>
+```
+
+```bash
+bundle exec rubocop -a
+```
+
+### ESLint
+
+VSCode ext. list:
+- eslint
+- prettier
+- @babel/eslint-parser
+- eslint-config-airbnb
+- eslint-config-prettier
+- eslint-plugin-filenames
+- eslint-plugin-import
+- eslint-plugin-jsx-a11y
+- eslint-plugin-prettier
+- eslint-plugin-react
+- eslint-plugin-react-hooks
+
+```bash
+cp $(pwd)/JavaScript/.eslintrc ~/<project>/<root>/<path>
+```
+
+```bash
+cp $(pwd)/JavaScript/.eslintignore ~/<project>/<root>/<path>
+```
+
+In `package.json`:
+
+```json
+  "scripts": {
+    "lint": "node_modules/.bin/eslint app/javascript"
+  },
+```
+
+```bash
+yarn lint --fix
+```
