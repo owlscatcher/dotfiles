@@ -4,7 +4,7 @@
   "gitlens.advanced.telemetry.enabled": false,
   "telemetry.enableCrashReporter": false,
   // General Editor Rules
-  "workbench.colorTheme": "Gruvbox Material Dark",
+  "workbench.colorTheme": "August - Gruvbox",
   "window.titleBarStyle": "custom",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
@@ -24,5 +24,15 @@
   "gitlens.blame.ignoreWhitespace": true,
   "breadcrumbs.enabled": true,
   "explorer.confirmDelete": false,
-  "window.zoomLevel": 2
+  "tabnine.experimentalAutoImports": true,
+  "window.zoomLevel": 1,
+  "explorer.confirmDragAndDrop": false,
+
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
